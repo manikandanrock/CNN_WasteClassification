@@ -1,43 +1,72 @@
-# AICTE virtual internship project.
-Waste Classification Using CNN
-📌 Project Overview 
+# AICTE Virtual Internship Project
 
-Waste Classification Using CNN is a deep learning-based project that classifies waste into two categories: Organic and Recyclable using a Convolutional Neural Network (CNN). The model is trained using TensorFlow/Keras with ImageDataGenerator for preprocessing.
+# Waste Classification Using CNN
 
-The project includes a Streamlit app for user interaction and image classification.
+## 📌 Project Overview
 
-📌 Dataset
+Waste Classification Using CNN is a deep learning-based project that classifies waste into two categories: **Organic** and **Recyclable** using a Convolutional Neural Network (CNN). The model is trained using **TensorFlow/Keras** with **ImageDataGenerator** for preprocessing.
 
-Download Dataset from this link: Kaggle - https://www.kaggle.com/datasets/techsash/waste-classification-data
+The project includes a **Streamlit app** for user interaction and image classification.
 
-🏗 Project Architecture
+## 📌 Dataset
 
-Model Development (Python & TensorFlow/Keras)
+Download Dataset from this link: [Kaggle - Waste Classification Data](https://www.kaggle.com/datasets/techsash/waste-classification-data)
 
-Preprocessing waste images using ImageDataGenerator
+## 🏗 Project Architecture
 
-Training a CNN model to classify waste
+1. **Model Development (Python & TensorFlow/Keras)**
 
-Overcoming overfitting issues
+   - Preprocessing waste images using `ImageDataGenerator`
+   - Training a CNN model to classify waste
+   - Overcoming overfitting issues
 
-Frontend (Streamlit Web App)
+2. **Frontend (Streamlit Web App)**
 
-Streamlit UI to allow users to upload images for classification
+   - **Streamlit UI** to allow users to upload images for classification
 
-Deployment
+3. **Deployment**
 
-Streamlit app for quick access
+   - Streamlit app for quick access
 
-🚀 Features
+## 🚀 Features
 
-✔️ Classifies waste as Organic or Recyclable✔️ CNN model trained with TensorFlow/Keras✔️ Streamlit App for easy access✔️ Deployed on Hugging Face Spaces
+✔️ Classifies waste as **Organic** or **Recyclable**\
+✔️ CNN model trained with **TensorFlow/Keras**\
+✔️ **Streamlit App** for easy access\
+✔️ **Deployed on Hugging Face Spaces**
 
-🛠 Technologies Used
+## 🛠 Technologies Used
 
-Python (TensorFlow, Keras, OpenCV, NumPy, Pandas)
+- **Python** (TensorFlow, Keras, OpenCV, NumPy, Pandas)
+- **Streamlit** (Web App UI)
 
-Streamlit (Web App UI)
 
-📌 Deployment Links
 
-Streamlit App: [Coming Soon]
+## 📂 Project Structure
+
+```
+Waste-Classification-Using-CNN/
+│── streamlit_app/  # Streamlit-based UI
+│── model/  # Trained CNN model files
+│── dataset/  # Waste image dataset
+│── README.md  # Project Documentation
+```
+
+## 🛠 Setup & Installation
+
+### 🔹 Streamlit App
+
+```bash
+cd streamlit_app
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 📌 Deployment Links
+
+- **Streamlit App** : [Coming Soon]
+
+---
+
+Contributions & feedback are welcome! 😊
+
