@@ -1,10 +1,14 @@
 # AICTE virtual internship project.
 Waste Classification Using CNN
-📌 Project Overview
+📌 Project Overview 
 
 Waste Classification Using CNN is a deep learning-based project that classifies waste into two categories: Organic and Recyclable using a Convolutional Neural Network (CNN). The model is trained using TensorFlow/Keras with ImageDataGenerator for preprocessing.
 
 The project includes a Streamlit app for user interaction and image classification.
+
+📌 Dataset
+
+Download Dataset from this link: Kaggle - https://www.kaggle.com/datasets/techsash/waste-classification-data
 
 🏗 Project Architecture
 
@@ -33,3 +37,7 @@ Streamlit app for quick access
 Python (TensorFlow, Keras, OpenCV, NumPy, Pandas)
 
 Streamlit (Web App UI)
+
+📌 Deployment Links
+
+Streamlit App: [Coming Soon]
