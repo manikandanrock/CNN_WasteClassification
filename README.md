@@ -40,15 +40,18 @@ Download Dataset from this link: [Kaggle - Waste Classification Data](https://ww
 - **Python** (TensorFlow, Keras, OpenCV, NumPy, Pandas)
 - **Streamlit** (Web App UI)
 
-
-
 ## 📂 Project Structure
 
 ```
 Waste-Classification-Using-CNN/
-│── streamlit_app/  # Streamlit-based UI
-│── model/  # Trained CNN model files
-│── dataset/  # Waste image dataset
+│── Week1/  # Initial implementation and dataset exploration
+│── Week2/  # Model development and training
+│── Week3/  # Model evaluation and optimization
+│── Final_week/  # Finalized project files and deployment setup
+   │── app.py  # Streamlit-based UI
+   │── requirements.txt  # pip install -r requirements.txt
+   │── CNN_model/  # Trained CNN model files
+│── .gitignore  # Git ignore file
 │── README.md  # Project Documentation
 ```
 
@@ -57,7 +60,7 @@ Waste-Classification-Using-CNN/
 ### 🔹 Streamlit App
 
 ```bash
-cd streamlit_app
+cd Final_week
 pip install -r requirements.txt
 streamlit run app.py
 ```
