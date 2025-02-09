@@ -67,7 +67,7 @@ streamlit run app.py
 
 ## 📌 Deployment Links
 
-- **Streamlit App** : [Coming Soon]
+- **Streamlit App** : https://waste-classification-mani.streamlit.app/
 
 ---
 
