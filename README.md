@@ -48,9 +48,9 @@ Waste-Classification-Using-CNN/
 │── Week2/  # Model development and training
 │── Week3/  # Model evaluation and optimization
 │── Final_week/  # Finalized project files and deployment setup
-   │── app.py  # Streamlit-based UI
-   │── requirements.txt  # pip install -r requirements.txt
-   │── CNN_model/  # Trained CNN model files
+    │── app.py  # Streamlit-based UI
+    │── requirements.txt  # Requirements
+    │── CNN_model/  # Trained CNN model files
 │── .gitignore  # Git ignore file
 │── README.md  # Project Documentation
 ```
